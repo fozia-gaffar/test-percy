@@ -1,0 +1,21 @@
+{
+  "name": "test_sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx percy exec -t 200 -- node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixelmatch": "^5.3.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^20.7.3"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.26.0",
+    "@percy/puppeteer": "^2.0.2",
+    "mocha": "^10.2.0"
+  }
+}

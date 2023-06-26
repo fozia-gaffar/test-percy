@@ -7,6 +7,6 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   await page.setViewport({ width: 1366, height: 768 }); // Set the viewport size for a laptop screen
   await page.goto('http://unbouncepages.com/the-heros-journal-apexure/');
-  await page.screenshot({ path: 'full1_img.png', fullPage: true });
+  await page.screenshot({ path: 'full_img.png', fullPage: true });
   await browser.close();
 })();
